@@ -7,7 +7,7 @@ setuptools.setup(
     name='rpcX',
     version=rpcx.rpcX_version_str,
     python_requires='>=3.6',
-    packages=setuptools.find_packages(exclude=['tests']),
+    packages=['rpcx'],
     description='Generic RPC implementation, including JSON-RPC',
     author='Neil Booth',
     author_email='kyuupichan@gmail.com',
