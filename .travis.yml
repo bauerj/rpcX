@@ -5,6 +5,7 @@ python:
   - "nightly"
 # command to install dependencies
 install:
+  - python setup.py install
   - pip install pytest-cov
   - pip install python-coveralls
 # command to run tests
